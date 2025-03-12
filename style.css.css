@@ -409,3 +409,155 @@ section {
     margin-top: 40x;
     font-size: 16px;
 }
+
+/* Responsive CSS */
+
+@media (max-width: 1140px) {
+    .header {
+        padding: 1rem 5%;
+    }
+
+    .header .gradient-btn {
+        font-size: 1.6rem;
+        width: 14rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .home {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+    }  
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .home-img img {
+        width: 50vw;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .about h2 {
+        font-size: 5rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+
+    .about a {
+        font-size: 1.6rem;
+        width: 14rem;
+        padding: 0.7rem 2.2rem;
+    }
+
+    .services h2 {
+        font-size: 5rem;
+        padding: 1rem 0;
+    }
+
+    .services h4 {
+        font-size: 6rem;
+    }
+
+    .services p {
+        font-size: 1.5rem;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+    }
+
+    .service-box {
+        height: 650px;
+    }
+
+    .service-info h4 {
+        font-size: 2rem;
+    }
+
+    .service-info p {
+        font-size: 1.4rem;
+    }
+
+    .service-info i {
+        font-size: 4rem;
+    }
+
+    .contact h2 {
+        font-size: 5rem;
+        padding: 1rem 0;
+    }
+
+    .contact .input-box {
+        width: 1.5rem 3rem;
+    }
+
+    .contact form {
+        flex-direction: column;
+    }
+
+    .footer ul {
+        font-size: 1.5rem;
+    }
+
+    .footer ul li {
+        margin-left: 10px;
+    }
+
+    .footer ul li a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer ul {
+        font-size: 1.3rem;
+    }
+
+    .footer ul li {
+        margin-left: 5px;
+    }
+
+    .footer ul li a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer ul {
+        font-size: 1.2rem;
+    }
+
+    .footer ul li {
+        margin-left: 5px;
+    }
+
+    .footer ul li a {
+        font-size: 1.2rem;
+    }
+}
