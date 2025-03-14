@@ -423,9 +423,9 @@ section {
     .header {
         padding: 1rem 5%;
     }
+    
     .header .gradient-btn {
-    display: block;
-    margin-left: auto;
+    display: none;
     }
 
     .navbar {
