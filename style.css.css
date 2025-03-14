@@ -418,9 +418,6 @@ section {
     }
 
     .header .gradient-btn {
-        font-size: 1.6rem;
-        width: 14rem;
-        padding: 0.5rem 1.5rem;
         display: none;
     }
     .navbar {
