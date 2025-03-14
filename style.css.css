@@ -394,7 +394,7 @@ section {
 }
 
 .footer ul li a {
-    color: white;
+    color: black;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
 }
@@ -413,6 +413,13 @@ section {
 /* Responsive CSS */
 
 @media (max-width: 1140px) {
+    :root {
+        --bg-color: #fab0bd;
+        --second-bg-color: #fd97a6;
+        --text-color: #000;
+        --main-color: #ff5871;
+    }
+    
     .header {
         padding: 1rem 5%;
     }
