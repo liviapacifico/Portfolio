@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* Principal */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,6 @@
     scroll-behavior: smooth;
     font-family: Poppins, sans-serif;
 }
-
-/* Custom CSS */
 
 :root {
     --bg-color: #ffb8b8;
@@ -59,13 +57,13 @@ body {
     margin-left: 5rem;
 }
 
-/* Logo hover effect */
+/* Logo hover */
 
 .logo:hover {
     transform: scale(1.1);
 }
 
-/* Gradient text for the logo */
+/* Gradiente de texto principal */
 
 span {
     background: linear-gradient(
@@ -88,14 +86,14 @@ span {
     border-bottom: 3px solid transparent;
 }
 
-/* Navbar hover effect */
+/* Navbar hover */
 
 .navbar a:hover {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
 
-/* Gradient button for the header */
+/* Gradient button do header  */
 
 .gradient-btn {
     margin-top: 0.5rem; 
@@ -115,7 +113,7 @@ span {
     text-wrap: nowrap;
 }
 
-/* Section site style */
+/* Definição de sections do site */
 
 section {
     min-height: 100vh;
@@ -132,7 +130,7 @@ section {
     gap: 15rem;
 }
 
-/* Home content and image alignment */
+/* Home content e imagens alinhamento */
 
 .home-content {
     display: flex;
@@ -160,13 +158,13 @@ section {
     transition: 0.4s ease-in-out;
 }
 
-/* Home image hover effect */
+/* Home image hover */
 
 .home-img img:hover {
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color), 0 0 100px var(--main-color);
 }
 
-/* Home content paragraph */
+/* Paragrafo do Home */
 
 .home-content p {
     font-size: 1.5rem;
@@ -175,7 +173,7 @@ section {
     max-width: 1000px;
 }
 
-/* Social Icons */
+/* Icons de redes sociais */
 
 .social-icons a {
     margin-top: 2rem;
@@ -192,7 +190,7 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-/* Social Icons hover effect */
+/* Icons de rede sociais hover */
 
 .social-icons a:hover {
     color: var(--text-color);
@@ -201,7 +199,7 @@ section {
     background-color: var(--main-color);
 }
 
-/* Button Group */
+/* Button */
 
 .btn-group {
     display: flex;
@@ -222,7 +220,7 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-/* Button hover effect */
+/* Button hover */
 
 .btn:hover {
     transform: scale(1.05);
@@ -243,7 +241,7 @@ section {
     box-shadow: 0 0 25px var(--main-color);
 }
 
-/* About */
+/* Sobre mim */
 
 .about {
     display: flex;
@@ -253,20 +251,7 @@ section {
     background-color: var(--second-bg-color);
 }
 
-.about img {
-    width: 32vw;
-    border: 50%;
-    box-shadow: 0 0 20px var(--main-color);
-    transition: 0.4s ease-in-out;
-}
-
-/* About image hover effect */
-
-.about img img:hover {
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color);
-}
+/* Conteúdo */
 
 .about-content h2 {
     text-align: left;
@@ -276,6 +261,8 @@ section {
 .about-content p {
     font-size: 1.8rem;
 }
+
+/* Botão do sobre mim */
 
 .about-content .btn {
     margin-top: 2rem;
@@ -302,7 +289,8 @@ section {
     background-color: var(--bg-color);
 }
 
-/* Services */
+
+/* Meus serviços */
 
 .heading {
     text-align: center;
@@ -326,6 +314,8 @@ section {
     gap: 2.5rem;
 }
 
+/* Box do "meu serviço" */
+
 .service-box {
     display: flex;
     justify-content: center;
@@ -338,7 +328,7 @@ section {
     transition: 0.4s ease-in-out;
 }
 
-/* Service box hover effect */
+/* Serviços hover */
 
 .service-box:hover {
     border: 5px solid var(--main-color);
@@ -356,7 +346,7 @@ section {
     padding: 5rem;
 }
 
-/* Service info text alignment */
+/* Serviços texto */
 
 .service-info h4 {
     font-size: 4rem;
@@ -374,7 +364,8 @@ section {
     font-size: 8rem;
 }
 
-/* Contact */
+/* Contato */
+
 .contact {
     background-color: var(--bg-color);
 }
@@ -383,6 +374,8 @@ section {
     color: var(--text-color);
     margin-bottom: 3rem;
 }
+
+/* Formulário de contato */
 
 .contact form {
     display: flex;
@@ -406,7 +399,7 @@ section {
     resize: none;
 }
 
-/* Footer */
+/* Rodapé da página */
 
 .footer {
     background-color: var(--second-bg-color);
@@ -446,7 +439,7 @@ section {
     font-size: 16px;
 }
 
-/* Responsive all */
+/* Responsividade */
 
 @media (max-width: 1140px) {
     :root {
